@@ -1,0 +1,189 @@
+/*----------------FUNC BLOCK-S------------------*/
+.funcBlock
+{
+    width: 500px;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 128px;
+    left: 128px;
+}
+
+.funcHeader
+{
+    height: 10%;
+    width: 100%;
+    background: #E6E9E9;
+    border-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding-top: 2%;
+}
+
+/*----------------BASIC DIVS-------------------*/
+body
+{
+    margin: 0;
+    overflow: scroll;
+    background: #C6C9C9;
+    width: 2048px;
+    height: 2048px;
+    
+}
+
+/*----------------SIDE NAV PANEL----------------*/
+
+.lineInfo
+{
+    background: #5180CC;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #FFF;
+    width: 100%;
+    clear: both;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.li, .co
+{
+    float: left;
+    width: 48px;
+    color: #FFF;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*-------------------CODE BOX---------------------*/
+.codeBox
+{
+    
+    height: 90%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    float: left;
+    overflow: visible;
+}
+
+.browserView
+{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    margin-top: 99vh;
+    background: #FFF;
+    z-index: 3;
+}
+
+.browserViewTab
+{
+    height: 2vh;
+    background: #E6E9E9;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    padding-top: 2%;
+    position: relative;
+    top: -3vh;
+    border-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    z-index: 2;
+}
+
+/*-----------------------LINE BOX---------------------------*/
+
+.lineBox
+{
+    background: #EFF0F1;
+    margin: 0;
+    float: left;
+    background: #47484B;
+    padding-top: 2%;
+    padding-left: .5vw;
+    padding-right: 1vw;
+    display: inline;
+}
+
+.lineNumber
+{
+    width: 100%;
+    font-size: 14px;
+    color: #EFF0F1;
+    font-family: 'Inconsolata', monospace;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*------------------------CODE AREA-------------------------*/
+.codeArea
+{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    background: #47484B;
+    float: left;
+    border: none;
+    margin: 0;
+}
+
+.codeAreaText
+{
+    display: inline;
+    height: 98%;
+    min-width: 50%; 
+    margin: 0;
+    float: left;
+    color: #F8F8F2;
+    background: none;
+    border: none;
+    padding-left: 1vw;
+    padding-top: 0;
+    font-size: 14px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    padding-top: 2%;
+    white-space: pre;
+}
+
+div:focus
+{
+    outline: none;
+}
+
+.code div, pre
+{
+    white-space: pre;
+    display: inline;
+    width:auto;
+    padding: 0;
+    margin: 0;
+    color: #F8F8F2;
+    background: none;
+    border: none;
+    padding-left: 0;
+    padding-top: 0;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Inconsolata', monospace;
+}
+
+.errorBox
+{
+    color: red;
+    background: pink;
+    width: 100%;
+    float: left;
+}
+
+
+/*--------------------------FONTS-------------------------*/
+@font-face {
+    font-family: VCR;
+    src: url(fonts/VCR.ttf);
+}

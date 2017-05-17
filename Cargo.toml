@@ -1,0 +1,9 @@
+[package]
+name = "dusty"
+version = "0.1.0"
+authors = ["racer161 <ethan@spurlock.io>"]
+
+[dependencies]
+
+[profile.dev]
+opt-level = 3 
